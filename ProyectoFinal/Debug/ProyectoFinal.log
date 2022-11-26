@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1092,5): error MSB6006: "link.exe" salió con el código 1168.
+LINK : fatal error LNK1168: no se puede abrir C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\ProyectoFinal.exe para escritura
