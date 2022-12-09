@@ -1,0 +1,11 @@
+newmtl PuertaCristal1:ZOFRP1HRT0QW1Z4HL73WPSWDK_mat_3_color_0_734118_0_655686_0_338824_jpg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.45 0.45 0.45
+map_Kd Glass_Base_Color.png
+map_Ka NormalMap.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85

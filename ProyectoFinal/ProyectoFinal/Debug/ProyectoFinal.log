@@ -1,0 +1,68 @@
+﻿  MainPrueba.cpp
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\modelAnim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\modelAnim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(49,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(50,21): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(304,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(310,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(313,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(315,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(319,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(322,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(328,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(333,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(337,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(340,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(346,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(349,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(351,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(355,29): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(358,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(364,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(367,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(373,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(377,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(379,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(383,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(568,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(602,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(603,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(604,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(618,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(619,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(620,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1207,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1208,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1221,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1222,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1397,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1398,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1402,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1403,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1405,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\MainPrueba.cpp(1406,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  ProyectoFinal.vcxproj -> C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\ProyectoFinal.exe
