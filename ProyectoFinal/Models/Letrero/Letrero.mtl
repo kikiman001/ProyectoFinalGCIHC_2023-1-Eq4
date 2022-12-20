@@ -1,0 +1,26 @@
+# Blender 3.1.0 MTL File: 'None'
+# www.blender.org
+
+newmtl signal:sign:sign:aiStandardSurface1SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd  donotenter2.jpg
+map_Bump  donotenter2.jpg
+
+newmtl signal:sign:sign:lambert12SG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd  WOOD0sss.jpg
+map_Bump  -bm 1.000000 WOOD0sss.jpg
