@@ -1,0 +1,153 @@
+newmtl CoralHoja:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RS04bra2.jpg
+Ni 1.00
+newmtl DomoCristal:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoCristal1:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoCristal2:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl DomoCristal2:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoMetal:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoMetal1:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Puerta1:ZOFRP1HRT0QW1Z4HL73WPSWDK_mat_1_white_ma_jpg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd white_ma.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl Puerta1:ZOFRP1HRT0QW1Z4HL73WPSWDK_mat_3_color_0_734118_0_655686_0_338824_jpg
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.43 0.43 0.43
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl Puffer:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tex_RGB_2.jpg
+bump  -bm 1 Tex_N_3.jpg
+Ni 1.00
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd textura-arena.jpg
+Ni 1.00
+newmtl pasted__phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong1SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ob_3_glass_H.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

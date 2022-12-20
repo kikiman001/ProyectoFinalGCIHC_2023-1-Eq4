@@ -1,0 +1,10 @@
+newmtl Pez03:PhongSpecularCol
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 1.00 1.00 1.00
+map_Kd Pez03.jpg
+bump  -bm 1 Tex_N_3.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85

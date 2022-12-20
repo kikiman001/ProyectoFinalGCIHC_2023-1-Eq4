@@ -1,0 +1,74 @@
+﻿  314698649_PROYECTOFINAL2023-1_Grupo11.cpp
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\modelAnim.h(104,44): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\modelAnim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(49,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(50,21): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(304,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(310,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(313,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(315,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(319,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(322,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(328,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(333,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(337,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(340,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(346,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(349,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(351,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(355,29): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(358,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(364,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(367,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(373,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(377,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(379,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(383,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(568,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(602,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(603,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(604,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(618,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(619,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(620,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1146,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1217,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1218,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1231,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1232,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1401,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1402,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1406,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1407,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1409,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\ProyectoFinal\314698649_PROYECTOFINAL2023-1_Grupo11.cpp(1410,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(SOIL2.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+  ProyectoFinal.vcxproj -> C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Desmadre\314698649_PROYECTOFINAL2023-1_Grupo11\ProyectoFinal\Debug\ProyectoFinal.exe

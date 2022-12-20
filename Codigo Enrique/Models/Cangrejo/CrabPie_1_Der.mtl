@@ -1,0 +1,121 @@
+newmtl CrabBody1:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabHandDer:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabHandIzq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_1_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_1_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_2_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_2_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_3_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_3_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_4_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_4_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85

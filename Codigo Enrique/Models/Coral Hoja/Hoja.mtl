@@ -1,0 +1,264 @@
+newmtl Cofre:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd WoodPlanksOld0250_3_350.jpg
+Ni 1.00
+newmtl Cofre:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd metal_bare_0022_01_preview.jpg
+Ni 1.00
+newmtl Cofre:lambert4SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Cofre:lambert5SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Cofre:pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd WoodPlanksOld0250_3_350.jpg
+Ni 1.00
+newmtl Cofre:pasted__lambert4SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CoralHoja:lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd RS04bra2.jpg
+Ni 1.00
+newmtl CrabBody:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabHandDer:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabHandIzq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_1_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_1_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_2_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_2_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_3_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_3_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_4_Der:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl CrabPie_4_Izq:MQ2XTA8OJSFZWSANVIS1CEH6_TexMap
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump  -bm 1 texture_S.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks texture_S.jpg
+Ns 9.85
+newmtl Fachada:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_6.jpg
+Ni 1.00
+newmtl Fachada:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Fachada:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ob_3_glass_H.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Pared:initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd WallRock_Diffuse_8K.jpg
+Ni 1.00
+newmtl Pecera:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+newmtl PeceraCristal:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Glass_Base_Color.png
+map_Ka Virus.002_Base_Color.png
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Puffer:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tex_RGB_2.jpg
+bump  -bm 1 Tex_N_3.jpg
+Ni 1.00
+newmtl Puffer:lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tex_RGB_2.jpg
+Ni 1.00
+newmtl Tank1:FishTank
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd texture.jpeg
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 9.85
+newmtl Volcan:lambert12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tex_RGB_1.jpeg
+bump  -bm 1 Tex_N_0.jpeg
+Ni 1.00
+newmtl coralBrain:Coral_cerebro_lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd uv.png
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd textura-arena.jpg
+Ni 1.00
