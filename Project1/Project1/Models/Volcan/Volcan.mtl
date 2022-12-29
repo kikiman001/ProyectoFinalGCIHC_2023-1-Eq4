@@ -1,0 +1,64 @@
+newmtl DomoIntCristal:pasted__phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoIntCristal:phong2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.69 0.69 0.69
+map_Kd ob_3_glass_H.jpg
+bump  -bm 1 Glass_Normal.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl DomoMetal:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Pecera:lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Metal_iron_3_baseColor.jpeg
+map_Ka Metal_iron_3_ambientOcclusion.jpeg
+bump  -bm 1 Metal_iron_3_normal.jpeg
+Ni 1.00
+newmtl Piso:Piso_lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tile_BaseColor.jpg
+map_Ka Tile_AmbientOcclusion.jpg
+bump  -bm 1 Tile_Normal.jpg
+Ni 1.00
+newmtl PisoArena:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd textura-arena.jpg
+Ni 1.00
+newmtl Volcan1:lambert12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tex_RGB_1.jpeg
+bump  -bm 1 Tex_N_0.jpeg
+Ni 1.00
