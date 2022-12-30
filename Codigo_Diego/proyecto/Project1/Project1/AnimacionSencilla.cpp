@@ -84,7 +84,20 @@ float DownC = -0.023;
 float Pinzas = 12;
 float movCamera = 0.0f;
 
+bool active;
+bool myanim = true;
+
 //Recorrido pez globo
+bool circuitoe = false;
+bool recorridoe1 = true;
+bool recorridoe2 = false;
+bool recorridoe3 = true;
+bool recorridoe4 = false;
+bool recorridoe5 = false;
+bool recorridoe6 = false;
+
+bool recorridoe7 = false;
+bool recorridoe8 = false;
 
 
 float rotKit = 90.0;
@@ -94,7 +107,7 @@ const float r = 9.0f;
 const float Radio = (3.14159f) / 180.0f;
 
 //Peces up and down
-float movY = 0.0;
+float movYe = 0.0;
 
 
 // Light attributes
