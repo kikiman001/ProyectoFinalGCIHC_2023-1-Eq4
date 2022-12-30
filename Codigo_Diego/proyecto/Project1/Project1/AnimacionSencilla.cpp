@@ -671,235 +671,235 @@ int main()
 
 		//TORTUGA---------------------------------------------
 		// Also draw the lamp object, again binding the appropriate shader
-		lampShader.Use();
-		// Get location objects for the matrices on the lamp shader (these could be different on a different shader)
-		modelLoc = glGetUniformLocation(lampShader.Program, "model");
-		viewLoc = glGetUniformLocation(lampShader.Program, "view");
-		projLoc = glGetUniformLocation(lampShader.Program, "projection");
-		// Set matrices
-		glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
-		glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection)); 
-	    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//lampShader.Use();
+		//// Get location objects for the matrices on the lamp shader (these could be different on a different shader)
+		//modelLoc = glGetUniformLocation(lampShader.Program, "model");
+		//viewLoc = glGetUniformLocation(lampShader.Program, "view");
+		//projLoc = glGetUniformLocation(lampShader.Program, "projection");
+		//// Set matrices
+		//glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+		//glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection)); 
+	 //   glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 
-		model = glm::mat4(1);
-		//animacion compleja
-		model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
-		model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
-		//------------------------------
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
-		model = glm::rotate(model, glm::radians(rot2), glm::vec3(0.0f, 0.0f, glfwGetTime()));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		front_right.Draw(lampShader);
+		//model = glm::mat4(1);
+		////animacion compleja
+		//model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
+		//model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
+		////------------------------------
+		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
+		//model = glm::rotate(model, glm::radians(rot2), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//front_right.Draw(lampShader);
 
-		model = glm::mat4(1);
-		//animacion compleja
-		model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
-		model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
-		//------------------------------
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 0.0f, glfwGetTime()));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		front_left.Draw(lampShader);
+		//model = glm::mat4(1);
+		////animacion compleja
+		//model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
+		//model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
+		////------------------------------
+		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//front_left.Draw(lampShader);
 
-		model = glm::mat4(1);
-		//animacion compleja
-		model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
-		model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
-		//------------------------------
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
-		model = glm::rotate(model, glm::radians(rot2), glm::vec3(0.0f, 0.0f, glfwGetTime()));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		rear_left.Draw(lampShader);
+		//model = glm::mat4(1);
+		////animacion compleja
+		//model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
+		//model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
+		////------------------------------
+		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
+		//model = glm::rotate(model, glm::radians(rot2), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//rear_left.Draw(lampShader);
 
-		model = glm::mat4(1);
-		//animacion compleja
-		model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
-		model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
-		//------------------------------
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 0.0f, glfwGetTime()));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		rear_right.Draw(lampShader);
+		//model = glm::mat4(1);
+		////animacion compleja
+		//model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
+		//model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
+		////------------------------------
+		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//rear_right.Draw(lampShader);
 
-		model = glm::mat4(1);
-		//animacion compleja
-		model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
-		model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
-		//------------------------------
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		body.Draw(lampShader);
+		//model = glm::mat4(1);
+		////animacion compleja
+		//model = glm::translate(model, PosIni + glm::vec3(0, movKitZt, movKitXt));
+		//model = glm::rotate(model, glm::radians(rotKitt), glm::vec3(0.0f, 1.0f, 0.0));
+		////------------------------------
+		//model = glm::translate(model, glm::vec3(0.0f, 0.0f, -5.0f));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//body.Draw(lampShader);
 
+		////glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		////SV.Draw(lampShader);
+		////Piso.Draw(lampShader);
+		//glBindVertexArray(0);
+
+		////HOUSE
+		//lightingShader.Use();
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//SV.Draw(lampShader);
-		//Piso.Draw(lampShader);
-		glBindVertexArray(0);
+		//glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 0.0f);
+		//glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
+		////glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		////House.Draw(lampShader);
+		//House.Draw(lightingShader);
+		//glBindVertexArray(0);
 
-		//HOUSE
+		//lampShader.Use();
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Garden.Draw(lampShader);
+		//glBindVertexArray(0);
+
+		//lampShader.Use();
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Roof.Draw(lampShader);
+		//glBindVertexArray(0);
+		// 
+		//lampShader.Use();
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Front.Draw(lampShader);
+		//glBindVertexArray(0);
+
+
+		//
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(spotLightPosition[0]));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Lamp.Draw(lampShader);
+		//glBindVertexArray(0);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(spotLightPosition[1]));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Lamp.Draw(lampShader);
+		//glBindVertexArray(0);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(spotLightPosition[2]));
+		//model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Lamp.Draw(lampShader);
+		//glBindVertexArray(0);
+
+
+		////JELLY--------------------------------------------------
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, 3.0f, 0.0f));
+		//model = glm::translate(model, glm::vec3(0.0f, jelly_M /2, 5.0f));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Jelly.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, 5.0f, 0.0f));
+		//model = glm::translate(model, glm::vec3(0.0f, jelly_M, -5.0f));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Jelly2.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(0.0f, 5.0f, 0.0f));
+		//model = glm::translate(model, glm::vec3(5.0f, jelly_M+4, 0.0f));
+		//model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Jelly3.Draw(lampShader);
+		//glBindVertexArray(0);
+
+
+		////fish
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(5.0f, 2.0f, 5.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		////animacion compleja
+		//model = glm::translate(model, glm::vec3(movKitX, 0, movKitZ));
+		//model = glm::rotate(model, glm::radians(rotKit), glm::vec3(0.0f, 1.0f, 0.0));
+		////---------------------
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Fish.Draw(lampShader);
+		//
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(3.0f, 2.0f, 5.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		////animacion compleja
+		//model = glm::translate(model, glm::vec3(movKitX, 0, movKitZ));
+		//model = glm::rotate(model, glm::radians(rotKit), glm::vec3(0.0f, 1.0f, 0.0));
+		////---------------------
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//Fish.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(7.0f, 3.0f, 5.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishF.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(7.0f, 3.0f, 5.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishT.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(4.0f, 4.0f, 7.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishF.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(4.0f, 4.0f, 7.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishT.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(6.0f, 5.0f, 3.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishF.Draw(lampShader);
+
+		//model = glm::mat4(1);
+		//model = glm::translate(model, glm::vec3(6.0f, 5.0f, 3.0f));
+		//model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
+		//model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//FishT.Draw(lampShader);
+
+		//glBindVertexArray(0);
+
 		lightingShader.Use();
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		model = glm::scale(model, glm::vec3(2.94f, 2.94f, 2.94f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 0.0f);
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
-		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		//House.Draw(lampShader);
-		House.Draw(lightingShader);
-		glBindVertexArray(0);
-
-		lampShader.Use();
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Garden.Draw(lampShader);
-		glBindVertexArray(0);
-
-		lampShader.Use();
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Roof.Draw(lampShader);
-		glBindVertexArray(0);
-		 
-		lampShader.Use();
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, -2.4, 0.0f));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Front.Draw(lampShader);
-		glBindVertexArray(0);
-
-
-		
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(spotLightPosition[0]));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Lamp.Draw(lampShader);
-		glBindVertexArray(0);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(spotLightPosition[1]));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Lamp.Draw(lampShader);
-		glBindVertexArray(0);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(spotLightPosition[2]));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Lamp.Draw(lampShader);
-		glBindVertexArray(0);
-
-
-		//JELLY--------------------------------------------------
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, 3.0f, 0.0f));
-		model = glm::translate(model, glm::vec3(0.0f, jelly_M /2, 5.0f));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Jelly.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, 5.0f, 0.0f));
-		model = glm::translate(model, glm::vec3(0.0f, jelly_M, -5.0f));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Jelly2.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f, 5.0f, 0.0f));
-		model = glm::translate(model, glm::vec3(5.0f, jelly_M+4, 0.0f));
-		model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Jelly3.Draw(lampShader);
-		glBindVertexArray(0);
-
-
-		//fish
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(5.0f, 2.0f, 5.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		//animacion compleja
-		model = glm::translate(model, glm::vec3(movKitX, 0, movKitZ));
-		model = glm::rotate(model, glm::radians(rotKit), glm::vec3(0.0f, 1.0f, 0.0));
-		//---------------------
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Fish.Draw(lampShader);
-		
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(3.0f, 2.0f, 5.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		//animacion compleja
-		model = glm::translate(model, glm::vec3(movKitX, 0, movKitZ));
-		model = glm::rotate(model, glm::radians(rotKit), glm::vec3(0.0f, 1.0f, 0.0));
-		//---------------------
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		Fish.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(7.0f, 3.0f, 5.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishF.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(7.0f, 3.0f, 5.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishT.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(4.0f, 4.0f, 7.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishF.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(4.0f, 4.0f, 7.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishT.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(6.0f, 5.0f, 3.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishF.Draw(lampShader);
-
-		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(6.0f, 5.0f, 3.0f));
-		model = glm::scale(model, glm::vec3(0.4f, 0.4f, 0.4f));
-		model = glm::rotate(model, glm::radians(-rot), glm::vec3(0.0f, glfwGetTime(), 0.0f));
-		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		FishT.Draw(lampShader);
-
-		glBindVertexArray(0);
-
-		lightingShader.Use();
-		model = glm::mat4(1);
-		model = glm::scale(model, glm::vec3(10.0f));
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 0.0f);
-		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
-		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		//House.Draw(lampShader);
 		DomoM.Draw(lightingShader);
 		glBindVertexArray(0);
 
