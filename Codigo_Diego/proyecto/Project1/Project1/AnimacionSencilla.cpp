@@ -23,6 +23,8 @@
 #include "Shader.h"
 #include "Camera.h"
 #include "Model.h"
+#include "Texture.h"
+#include "modelAnim.h"
 
 // Function prototypes
 void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode);
@@ -57,7 +59,6 @@ bool anim3 = true;
 //variables de animacion compleja
 float movKitX = 0.0;
 float movKitZ = 0.0;
-float rotKit = 90.0;
 float rad = 12.0;
 
 float movKitXt = 0.0;
@@ -74,6 +75,26 @@ bool recorrido5 = true;
 bool recorrido6 = false;
 bool recorrido7 = false;
 bool recorrido8 = false;
+//cangrejo keyframes
+
+float range = 0.0f;
+float rotC = -45.0f;
+float UpC = 0.019;
+float DownC = -0.023;
+float Pinzas = 12;
+float movCamera = 0.0f;
+
+//Recorrido pez globo
+
+
+float rotKit = 90.0;
+float rotTapa = 0.0f;
+float Abrir = 0.0f;
+const float r = 9.0f;
+const float Radio = (3.14159f) / 180.0f;
+
+//Peces up and down
+float movY = 0.0;
 
 
 // Light attributes
@@ -82,6 +103,49 @@ glm::vec3 lightPos2(18.0f, 0.0f, -10.0f);
 glm::vec3 lightPos3(0.0f, 0.0f, 7.0f);
 glm::vec3 lightPos4(7.0f, 0.0f, 7.0f);
 glm::vec3 PosIni(0.0f, 0.0f, 0.0f);
+
+
+
+// Keyframes
+float posX = PosIni.x, posY = PosIni.y, posZ = PosIni.z, rotDI1 = 0, rotDI2 = 0, rotDI3 = 0, rotDI4 = 0, rotHands = 0;
+float Aletas = 0.0f;
+#define MAX_FRAMES 9
+int i_max_steps = 190;
+int i_curr_steps = 0;
+typedef struct _frame
+{
+	//Variables para GUARDAR Key Frames
+	float posX;		//Variable para PosicionX
+	float posY;		//Variable para PosicionY
+	float posZ;		//Variable para PosicionZ
+
+	float incX;		//Variable para IncrementoX
+	float incY;		//Variable para IncrementoY
+	float incZ;		//Variable para IncrementoZ
+
+	float rotDI1;
+	float rotDI2;
+	float rotDI3;
+	float rotDI4;
+	float rotHands;
+
+	float rotInc;
+	float rotInc2;//incremento para rotDer
+	float rotInc3;
+	float rotInc4;
+	float rotInc5;
+
+}FRAME;
+
+FRAME KeyFrame[MAX_FRAMES];
+int FrameIndex = 9;
+bool play = false;
+int playIndex = 0;
+
+
+
+
+
 // Positions of the point lights
 glm::vec3 pointLightPositions[] = {
 	glm::vec3(20.0f,0.0f, 0.0f),
@@ -153,8 +217,132 @@ glm::vec3 Light4 = glm::vec3(0);
 GLfloat deltaTime = 0.0f;	// Time between current frame and last frame
 GLfloat lastFrame = 0.0f;  	// Time of last frame
 
+
+void resetElements(void)
+{
+	posX = KeyFrame[0].posX;
+	posY = KeyFrame[0].posY;
+	posZ = KeyFrame[0].posZ;
+
+	rotDI1 = KeyFrame[0].rotDI1;
+	rotDI2 = KeyFrame[0].rotDI2;
+	rotDI3 = KeyFrame[0].rotDI3;
+	rotDI4 = KeyFrame[0].rotDI4;
+
+	rotHands = KeyFrame[0].rotHands;
+	rotC = 1.0;
+
+}
+
+void interpolation(void)
+{
+
+	KeyFrame[playIndex].incX = (KeyFrame[playIndex + 1].posX - KeyFrame[playIndex].posX) / i_max_steps;
+	KeyFrame[playIndex].incY = (KeyFrame[playIndex + 1].posY - KeyFrame[playIndex].posY) / i_max_steps;
+	KeyFrame[playIndex].incZ = (KeyFrame[playIndex + 1].posZ - KeyFrame[playIndex].posZ) / i_max_steps;
+
+	KeyFrame[playIndex].rotInc = (KeyFrame[playIndex + 1].rotDI1 - KeyFrame[playIndex].rotDI1) / i_max_steps;
+
+	KeyFrame[playIndex].rotInc2 = (KeyFrame[playIndex + 1].rotDI2 - KeyFrame[playIndex].rotDI2) / i_max_steps;
+
+	KeyFrame[playIndex].rotInc3 = (KeyFrame[playIndex + 1].rotDI3 - KeyFrame[playIndex].rotDI3) / i_max_steps;
+
+	KeyFrame[playIndex].rotInc5 = (KeyFrame[playIndex + 1].rotDI4 - KeyFrame[playIndex].rotDI4) / i_max_steps;
+
+	KeyFrame[playIndex].rotInc4 = (KeyFrame[playIndex + 1].rotHands - KeyFrame[playIndex].rotHands) / i_max_steps;
+
+}
+
+
+
 int main()
 {
+
+	//Inicialización de KeyFrames
+
+
+	KeyFrame[0].posX = -1.1;
+	KeyFrame[0].posY = 0.0;
+	KeyFrame[0].posZ = -0.50;
+	KeyFrame[0].rotDI1 = UpC;
+	KeyFrame[0].rotDI2 = UpC;
+	KeyFrame[0].rotDI3 = UpC;
+	KeyFrame[0].rotDI4 = .04;
+	KeyFrame[0].rotHands = Pinzas;
+	//A number: 1
+	KeyFrame[1].posX = -3.10;
+	KeyFrame[1].posY = 0.0;
+	KeyFrame[1].posZ = 0.30;
+	KeyFrame[1].rotDI1 = DownC;
+	KeyFrame[1].rotDI2 = DownC;
+	KeyFrame[1].rotDI3 = DownC;
+	KeyFrame[1].rotDI4 = -.007;
+	KeyFrame[1].rotHands = -Pinzas;
+	//A number: 2
+	KeyFrame[2].posX = -7.4;
+	KeyFrame[2].posY = 0.0;
+	KeyFrame[2].posZ = 4.5;
+	KeyFrame[2].rotDI1 = UpC;
+	KeyFrame[2].rotDI2 = UpC;
+	KeyFrame[2].rotDI3 = UpC;
+	KeyFrame[2].rotDI4 = 0.04;
+	KeyFrame[2].rotHands = Pinzas;
+	//A number: 3
+	KeyFrame[3].posX = -8.5;
+	KeyFrame[3].posY = 0.0;
+	KeyFrame[3].posZ = 11.90;
+	KeyFrame[3].rotDI1 = DownC;
+	KeyFrame[3].rotDI2 = DownC;
+	KeyFrame[3].rotDI3 = DownC;
+	KeyFrame[3].rotDI4 = -.007;
+	KeyFrame[3].rotHands = -Pinzas;
+	//A number: 4
+	KeyFrame[4].posX = -7.4;
+	KeyFrame[4].posY = 0.0;
+	KeyFrame[4].posZ = 4.50;
+	KeyFrame[4].rotDI1 = UpC;
+	KeyFrame[4].rotDI2 = UpC;
+	KeyFrame[4].rotDI3 = UpC;
+	KeyFrame[4].rotDI4 = 0.04;
+	KeyFrame[4].rotHands = -Pinzas;
+	//A number: 5
+	KeyFrame[5].posX = -3.1;
+	KeyFrame[5].posY = 0.0;
+	KeyFrame[5].posZ = 0.3;
+	KeyFrame[5].rotDI1 = DownC;
+	KeyFrame[5].rotDI2 = DownC;
+	KeyFrame[5].rotDI3 = DownC;
+	KeyFrame[5].rotDI4 = -0.007;
+	KeyFrame[5].rotHands = Pinzas;
+	//A number: 6
+	KeyFrame[6].posX = -1.1;
+	KeyFrame[6].posY = -0.5;
+	KeyFrame[6].posZ = 0.5;
+	KeyFrame[6].rotDI1 = UpC;
+	KeyFrame[6].rotDI2 = UpC;
+	KeyFrame[6].rotDI3 = UpC;
+	KeyFrame[6].rotDI4 = .03;
+	KeyFrame[6].rotHands = -Pinzas;
+	//A number: 7
+	KeyFrame[7].posX = -1.1;
+	KeyFrame[7].posY = -1.0;
+	KeyFrame[7].posZ = 0.5;
+	KeyFrame[7].rotDI1 = DownC;
+	KeyFrame[7].rotDI2 = DownC;
+	KeyFrame[7].rotDI3 = DownC;
+	KeyFrame[7].rotDI4 = 0.007;
+	KeyFrame[7].rotHands = 0.0;
+	KeyFrame[7].rotHands = -Pinzas;
+	//A number: 8
+	KeyFrame[8].posX = -1.1;
+	KeyFrame[8].posY = 0.0;
+	KeyFrame[8].posZ = 0.3;
+	KeyFrame[8].rotDI1 = UpC;
+	KeyFrame[8].rotDI2 = UpC;
+	KeyFrame[8].rotDI3 = UpC;
+	KeyFrame[8].rotDI4 = .03;
+	KeyFrame[8].rotHands = Pinzas;
+
 	// Init GLFW
 	glfwInit();
 	// Set all the required options for GLFW
@@ -165,7 +353,7 @@ int main()
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);*/
 
 	// Create a GLFWwindow object that we can use for GLFW's functions
-	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Iluminacion 2", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Proyecto Teoria", nullptr, nullptr);
 
 	if (nullptr == window)
 	{
@@ -203,8 +391,10 @@ int main()
 	Shader lampShader("Shaders/lamp2.vs", "Shaders/lamp2.frag");
 	Shader Anim("Shaders/anim.vs", "Shaders/anim.frag");
 	Shader Anim2("Shaders/anim2.vs", "Shaders/anim.frag");
+	Shader animShader("Shaders/anim.vs", "Shaders/anim.frag");
+
 	//acuario
-	Model Piso((char*)"Models/Sea/Sea.obj");
+	//Model Piso((char*)"Models/Sea/Sea.obj");
 	Model CubeL((char*)"Models/Sea/Sea.obj");
 	Model CubeR((char*)"Models/Sea/Sea.obj");
 	Model CubeFr((char*)"Models/Sea/Sea.obj");
@@ -243,6 +433,61 @@ int main()
 
 	Model Foco((char*)"Models/Foco/Foco.obj");
 	
+
+	Model DomoC((char*)"Models/Fachada_E/DomoCristal.obj");
+	Model DomoM((char*)"Models/Fachada_E/DomoMetal.obj");
+	Model DomoI((char*)"Models/Fachada_E/DomoIntCristal.obj");
+	Model Puerta((char*)"Models/Fachada_E/Puerta.obj");
+	Model PuertaC((char*)"Models/Fachada_E/PuertaCristal.obj");
+	//Model Water((char*)"Models/Water/Water.obj");
+
+	Model Arena((char*)"Models/Fachada_E/PisoArena.obj");
+
+	Model PeceraC((char*)"Models/Pecera/PeceraCristal.obj");
+	Model Pecera((char*)"Models/Pecera/Pecera.obj");
+
+
+	Model Piso((char*)"Models/Piso/Piso.obj");
+
+	Model Brain((char*)"Models/Coral brain/coralBrain.obj");
+	Model CHoja((char*)"Models/Coral hoja/CoralHoja.obj");
+	Model Pared((char*)"Models/Pared/Pared.obj");
+	Model Roca((char*)"Models/Roca/Roca.obj");
+
+	Model Puffer((char*)"Models/Puffer/Puffer.obj");
+	Model PufferD((char*)"Models/Puffer/PufferDer.obj");
+	Model PufferI((char*)"Models/Puffer/PufferIzq.obj");
+	Model PufferC((char*)"Models/Puffer/PufferCola.obj");
+
+	Model Volcan((char*)"Models/Volcan/Volcan.obj");
+
+	Model Cofre((char*)"Models/Cofre/CofreBox.obj");
+	Model CofreT((char*)"Models/Cofre/CofreTapa.obj");
+
+	Model Crabbody((char*)"Models/Cangrejo/CrabBody.obj");
+	Model CrabHandDer((char*)"Models/Cangrejo/CrabHandDer.obj");
+	Model CrabHandIzq((char*)"Models/Cangrejo/CrabHandIzq.obj");
+
+	Model PieD1((char*)"Models/Cangrejo/CrabPie_1_Der.obj");
+	Model PieD2((char*)"Models/Cangrejo/CrabPie_2_Der.obj");
+	Model PieD3((char*)"Models/Cangrejo/CrabPie_3_Der.obj");
+	Model PieD4((char*)"Models/Cangrejo/CrabPie_4_Der.obj");
+
+	Model PieI1((char*)"Models/Cangrejo/CrabPie_1_Izq.obj");
+	Model PieI2((char*)"Models/Cangrejo/CrabPie_2_Izq.obj");
+	Model PieI3((char*)"Models/Cangrejo/CrabPie_3_Izq.obj");
+	Model PieI4((char*)"Models/Cangrejo/CrabPie_4_Izq.obj");
+
+	Model Pez01((char*)"Models/Fishes/Pez01.obj");
+	Model Pez02((char*)"Models/Fishes/Pez02.obj");
+	Model Pez03((char*)"Models/Fishes/Pez03.obj");
+	Model Pez04((char*)"Models/Fishes/Pez04.obj");
+
+
+	//Modelo de animación
+	ModelAnim animacionPersonaje("Animacion/Personaje1/Angry.dae");
+	animacionPersonaje.initShaders(animShader.Program);
+
 
 	// First, set the container's VAO (and VBO)
 	GLuint VBO, VAO;
@@ -646,6 +891,20 @@ int main()
 		FishT.Draw(lampShader);
 
 		glBindVertexArray(0);
+
+		lightingShader.Use();
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(10.0f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 0.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
+		//glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		//House.Draw(lampShader);
+		DomoM.Draw(lightingShader);
+		glBindVertexArray(0);
+
+
+
 		// ALGAES
 		Anim.Use();
 		
