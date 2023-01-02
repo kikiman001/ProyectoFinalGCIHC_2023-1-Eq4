@@ -1,0 +1,89 @@
+# Blender 3.1.0 MTL File: 'Sci-Fi Sera.blend'
+# www.blender.org
+
+newmtl Black
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Textures\black_BaseColor.png
+map_Bump  -bm 1.000000 Textures\black_Normal.png
+
+newmtl Button_Light
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Textures\lightButton_BaseColor.png
+map_Bump  -bm 1.000000 Textures\lightButton_Normal.png
+
+newmtl Glass
+Ns 640.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.113559 0.705338 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  Textures\glass_BaseColor.png
+map_Ns  Textures\glass_Roughness.png
+map_refl  Textures\glass_Metallic.png
+map_Bump  -bm 1.000000 Textures\glass_Normal.png
+
+newmtl Gray
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.073236 0.073236 0.073236
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Textures\gray_BaseColor.png
+map_Bump  -bm 1.000000 Textures\gray_Normal.png
+
+newmtl Metal
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  Textures\metal_BaseColor.png
+map_refl  Textures\metal_BaseColor.png
+map_Bump  -bm 1.000000 Textures\metal_Normal.png
+
+newmtl White
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Textures\white_BaseColor.png
+map_Bump  -bm 1.000000 Textures\white_Normal.png
+
+newmtl Yellow
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.714122 0.045450
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  Textures\yellow_BaseColor.png
+map_Bump  -bm 1.000000 Textures\yellow_Normal.png

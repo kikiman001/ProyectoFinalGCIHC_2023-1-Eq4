@@ -1,0 +1,14 @@
+# Blender 3.1.0 MTL File: 'None'
+# www.blender.org
+
+newmtl CavePlatform_Base
+Ns 738.599976
+Ka 1.000000 1.000000 1.000000
+Kd 0.424000 0.424000 0.424000
+Ks 0.545000 0.545000 0.545000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  CavePlatform1_Base_Diffuse.png
+map_Ks  CavePlatform1_Base_Specular.png
