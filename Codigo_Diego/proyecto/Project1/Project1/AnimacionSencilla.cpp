@@ -496,6 +496,16 @@ int main()
 	Model Pez03((char*)"Models/Fishes/Pez03.obj");
 	Model Pez04((char*)"Models/Fishes/Pez04.obj");
 
+	Model Fachada((char*)"Models/Fachada_K/Fachada.obj");
+	Model Pool((char*)"Models/Piscina/Piscina.obj");
+	Model Agua((char*)"Models/Sea/Sea.obj");
+	Model Roca((char*)"Models/Roca2/Roca.obj");
+	Model Cubeta((char*)"Models/Cubeta/Cubeta.obj");
+	Model Rampa((char*)"Models/Rampa/Rampa1.obj");
+	Model Pingu1((char*)"Models/PinguinosCompletos/Pingu1.obj");
+	Model Pingu2((char*)"Models/PinguinosCompletos/Pingu2.obj");
+
+
 
 	//Modelo de animación
 	ModelAnim animacionPersonaje("Animacion/Personaje1/Angry.dae");
@@ -1016,6 +1026,68 @@ int main()
 		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		CubeR.Draw(Anim);
+
+
+		//Fachada Pigüinario
+		model = glm::mat4(1);
+		tmp = model = glm::translate(model, glm::vec3(0, 1, 0));
+		model = glm::translate(model, glm::vec3(posX, posY, posZ));
+		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::scale(model, glm::vec3(1.8f, 1.17f, 1.22f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Fachada.Draw(lightingShader);
+
+		//Piscina
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(0.5f, 0.7f, 0.3f));
+		tmp = model = glm::translate(model, glm::vec3(0, 1, 0));
+		model = glm::translate(model, glm::vec3(0.0f, -1.7f, 0.0f));
+		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Pool.Draw(lightingShader);
+
+		//Agua de la piscina
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(0.23f, 0.2f, 0.17f));
+		tmp = model = glm::translate(model, glm::vec3(0, 1, 0));
+		model = glm::translate(model, glm::vec3(0.0f, 3.8f, 0.0f));
+		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Agua.Draw(lightingShader);
+
+		//Roca
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(0.04f, 0.04f, 0.04f));
+		tmp = model = glm::translate(model, glm::vec3(1, 1, 1));
+		model = glm::translate(model, glm::vec3(-25.0f, 39.0f, -29.0f));
+		model = glm::rotate(model, glm::radians(rot), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Roca.Draw(lightingShader);
+
+		//Pingüino 1
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(0.7f, 0.7f, 0.7f));
+		model = glm::translate(model, glm::vec3(-21.0f, 3.9f, -60.0f));
+		//model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::translate(model, PosIni + glm::vec3(0.0f, movKitY, movKitZ));
+		model = glm::rotate(model, glm::radians(rotKit), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Pingu1.Draw(lightingShader);
+
+		//Pingüino 2
+		model = glm::mat4(1);
+		model = glm::scale(model, glm::vec3(0.7f, 0.7f, 0.7f));
+		model = glm::translate(model, glm::vec3(-25.0f, -3.5, -14.0f));
+		// = glm::rotate(model, glm::radians(180.0f), glm::vec3(0.0f, 1.0f, 0.0));
+		model = glm::translate(model, PosIni + glm::vec3(movKitX2, 0.0f, movKitZ2));
+		model = glm::rotate(model, glm::radians(rotKit2), glm::vec3(0.0f, 1.0f, 0.0));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//Pingu2.Draw(lightingShader);
+
 
 		glDisable(GL_BLEND);
 
