@@ -106,27 +106,6 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd wood.png
 Ni 1.00
-newmtl lambert29SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd 10042_Sea_Turtle_V1_Diffuse.jpg
-Ni 1.00
-newmtl lambert30SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd turtle_texture.jpg
-Ni 1.00
-newmtl lambert31SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Shark_TXTR.tga
-Ni 1.00
 newmtl lambert33SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -163,6 +142,41 @@ Tf 1.00 1.00 1.00
 Ni 1.45
 Ks 0.50 0.50 0.50
 Ns 197.53
+newmtl pasted__lambert36SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert36SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__lambert36SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__pasted__lambert36SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__pasted__pasted__lambert36SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 2.jpg
+Ni 1.00
 newmtl profile_01
 illum 4
 Kd 0.28 0.28 0.28

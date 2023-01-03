@@ -390,7 +390,7 @@ int main()
 	glfwSetCursorPosCallback(window, MouseCallback);
 
 	// GLFW Options
-	//glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
 	// Set this to true so GLEW knows to use a modern approach to retrieving function pointers and extensions
 	glewExperimental = GL_TRUE;
@@ -444,6 +444,7 @@ int main()
 	Model Algae32((char*)"Models/Algae/Algae3.obj");
 	//house
 	Model House((char*)"Models/House/only_house.obj");
+	//Model Shark((char*)"Models/House/shark.obj");
 	Model Garden((char*)"Models/House/garden.obj");
 	Model Lamp((char*)"Models/House/lamp.obj");
 	Model Front((char*)"Models/House/front.obj");
@@ -562,7 +563,7 @@ int main()
 
 		// Directional light
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.direction"), -0.2f, -1.0f, -0.3f);
-		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"),0.7f,0.7f,0.7f);
+		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"),0.1f,0.1f,0.1f);
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.diffuse"), 0.1f, 0.1f, 0.1f);
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.specular"),0.7f, 0.7f, 0.7f);
 
@@ -754,6 +755,8 @@ int main()
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		body.Draw(lampShader);
 
+	
+
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//SV.Draw(lampShader);
 		//Sea.Draw(lampShader);
@@ -794,7 +797,7 @@ int main()
 		PieD2.Draw(lampShader);
 
 			
-		model = glm::translate(tmp, glm::vec3(-1.515f+EZ, 0.0f, -9.087f+EZ));
+		model = glm::translate(tmp, glm::vec3(-1.515f+EX, 0.0f, -9.087f+EZ));
 		model = glm::translate(model, glm::vec3(posX, posY - rotDI2, posZ));
 		model = glm::rotate(model, glm::radians(r * sin(Radio * rotDI1)), glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::rotate(model, glm::radians(-rotDI2), glm::vec3(0.0f, -1.0f, 0.0f));
@@ -1010,42 +1013,47 @@ int main()
 		//-----------------------------------------------------------------------------------------------------
 		//MODELOS ENRIQUE
 		//-----------------------------------------------------------------------------------------------------
-		lampShader.Use();
+		/*lampShader.Use();
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(0.0f + EX, -2.4f, 0.0f + EZ));
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
+		model = glm::scale(model, glm::vec3(0.3f, 8.0f, 0.3f));
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		Piso.Draw(lampShader);
+		glBindVertexArray(0);*/
 		
 		lampShader.Use();
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(EX, 1.459f, EZ));
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 1.0);
-		glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 0.0);
+		//glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		Arena.Draw(lampShader);
 		glBindVertexArray(0);
-		lampShader.Use();
+
 		// 
 		lampShader.Use();
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(EX, 1.459f, EZ));
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		DomoM.Draw(lampShader);
 		glBindVertexArray(0);
-
+		
 
 		lampShader.Use();//	
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
+		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		//glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		Pecera.Draw(lampShader);
 		glBindVertexArray(0);
-
+		
 		/*lampShader.Use();
 		//	//1
 	
@@ -1377,6 +1385,7 @@ int main()
 		Algae32.Draw(Anim);
 
 		//Partes de la pecera con animacion  y transparencia
+
 		model = glm::mat4(1);
 		model = glm::scale(model, glm::vec3(1.0f, 0.5f, 1.0f));
 		model = glm::translate(model, glm::vec3(-15.0f, 15.0f, 0.0f));
@@ -1580,7 +1589,7 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode
 		active = !active;
 		if (active)
 		{
-			Light1 = glm::vec3(1.0f, 1.0f,1.0f);
+			Light1 = glm::vec3(1.0f, 0.5f, 1.0f);
 		}
 		else
 		{
@@ -1614,14 +1623,7 @@ void KeyCallback(GLFWwindow *window, int key, int scancode, int action, int mode
 		{
 			circuito = false;
 		}
-		if (keys[GLFW_KEY_C]) {
-			recorrido5 = true;
-			recorrido6 = false;
-		}
-		if (keys[GLFW_KEY_V]) {
-			recorrido6 = true;
-			recorrido5 = false;
-		}
+		
 	}
 }
 
