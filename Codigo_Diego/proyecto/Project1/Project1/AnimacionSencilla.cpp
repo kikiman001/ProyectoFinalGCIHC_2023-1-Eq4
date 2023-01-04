@@ -1446,26 +1446,26 @@ int main()
 		CubeR.Draw(Anim);
 
 		//Pecera cilindro
-		//model = glm::mat4(1);
-		//model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
-		//model = glm::scale(model, glm::vec3(1.5f));
-		//glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.00f);
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//PeceraC.Draw(Anim);
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
+		model = glm::scale(model, glm::vec3(1.5f));
+		glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		PeceraC.Draw(Anim);
 
 		////domo geodesico
-		//model = glm::mat4(1);
-		//model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
-		//model = glm::scale(model, glm::vec3(1.5f));
-		//glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.00f);
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//DomoI.Draw(Anim);
-		//model = glm::mat4(1);
-		//model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
-		//model = glm::scale(model, glm::vec3(1.5f));
-		//glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.00f);
-		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		//DomoC.Draw(Anim);
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
+		model = glm::scale(model, glm::vec3(1.5f));
+		glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		DomoI.Draw(Anim);
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
+		model = glm::scale(model, glm::vec3(1.5f));
+		glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		DomoC.Draw(Anim);
 
 
 		glDisable(GL_BLEND);
@@ -1901,7 +1901,7 @@ void animacion()
 		if (circuitoe) {
 			if (recorridoe1)
 			{
-				rotKite = (-1 * rotKit) - turnangle;
+				rotKite = (-1 * rotKite) - turnangle;
 				movKitXe += 0.2;
 				movKitZe += 0.2;
 				Aletas += 1.0;
@@ -1913,13 +1913,14 @@ void animacion()
 			}
 			if (recorridoe2)
 			{
-				rotKite = (rotKit)-turnangle;
+				rotKite = (rotKite)-turnangle;
 				movKitXe -= 0.2;
 				movKitZe -= 0.2;
 				if (movKitZe < -179)
 				{
 					recorridoe1 = true;
 					recorridoe2 = false;
+					
 				}
 			}
 			//up down peces
@@ -1929,6 +1930,7 @@ void animacion()
 				if (movYe > 0.1) {
 					recorridoe3 = false;
 					recorridoe4 = true;
+					
 				}
 			}
 			if (recorrido4)
