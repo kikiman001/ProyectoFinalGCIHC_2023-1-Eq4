@@ -3,56 +3,46 @@ C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\Pro
 C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\modelAnim.h(519,24): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(49,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
 C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(50,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(87,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(88,21): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(282,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(288,26): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(291,26): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(293,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(297,28): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(300,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(306,27): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(311,26): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(315,28): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(318,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(324,27): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(327,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(329,24): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(333,29): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(336,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(342,26): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(345,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(351,28): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(355,25): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(357,24): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(361,26): warning C4305: '=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(536,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(576,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(89,18): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(90,21): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(283,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(289,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(292,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(294,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(298,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(301,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(307,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(312,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(316,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(319,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(325,27): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(328,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(330,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(334,29): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(337,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(343,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(346,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(352,28): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(356,25): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(358,24): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(362,26): warning C4305: '=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(539,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(579,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(577,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(580,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(578,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(581,21): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(580,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
-          with
-          [
-              T=float
-          ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(581,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
-          with
-          [
-              T=float
-          ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(582,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(583,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
@@ -67,7 +57,7 @@ C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\Pro
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(586,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(587,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
@@ -82,43 +72,50 @@ C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\Pro
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(590,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(591,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
           with
           [
               T=float
           ]
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1329,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1517,14): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1523,14): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1531,15): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1537,15): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1545,19): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1551,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1632,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1633,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1637,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1638,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1640,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1641,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1697,17): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1706,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1711,17): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1720,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1727,17): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1736,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1741,17): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1750,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1756,21): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1774,18): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1785,21): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1800,18): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1820,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1821,19): warning C4305: '+=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1834,19): warning C4305: '-=': truncamiento de 'double' a 'float'
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1835,19): warning C4305: '-=': truncamiento de 'double' a 'float'
-LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
-soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(592,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(593,22): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1356,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1563,14): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1569,14): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1577,15): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1583,15): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1591,19): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1597,19): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1679,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1680,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1684,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1685,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1687,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1688,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1760,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1769,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1774,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1783,18): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1790,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1799,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1804,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1813,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1819,21): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1837,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1848,21): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1863,18): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1905,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1906,20): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1917,20): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp(1918,20): warning C4305: '-=': truncamiento de 'double' a 'float'
 soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
   Project1.vcxproj -> C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Debug\Project1.exe

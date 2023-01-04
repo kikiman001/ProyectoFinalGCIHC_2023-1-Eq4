@@ -1,4 +1,4 @@
-newmtl Puffer:lambert3SG
+newmtl lambert3SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -6,38 +6,7 @@ Tf 1.00 1.00 1.00
 map_Kd Tex_RGB_2.jpg
 bump  -bm 1 Tex_N_3.jpg
 Ni 1.00
-newmtl PufferCola:lambert3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Tex_RGB_2.jpg
-bump  -bm 1 Tex_N_3.jpg
-Ni 1.00
-newmtl PufferDer:lambert3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Tex_RGB_2.jpg
-bump  -bm 1 Tex_N_3.jpg
-Ni 1.00
-newmtl PufferDer:lambert4SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Tex_RGB_2.jpg
-Ni 1.00
-newmtl PufferIzq:lambert3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Tex_RGB_2.jpg
-bump  -bm 1 Tex_N_3.jpg
-Ni 1.00
-newmtl PufferIzq:lambert4SG
+newmtl lambert4SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
