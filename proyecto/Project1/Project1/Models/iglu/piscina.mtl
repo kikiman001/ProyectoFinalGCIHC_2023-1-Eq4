@@ -1,0 +1,151 @@
+newmtl Cement
+illum 4
+Kd 0.09 0.09 0.09
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.00 0.00 0.00
+Ns 0.00
+newmtl Filling
+illum 4
+Kd 0.09 0.54 0.56
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl Material
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 360.00
+newmtl Material_001
+illum 4
+Kd 0.88 1.00 0.91
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 0.00
+newmtl Material_003
+illum 4
+Kd 0.71 0.65 0.40
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 0.00
+newmtl Material_006
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl Pool_Material_007
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 360.00
+newmtl Pool_Material_011
+illum 4
+Kd 0.80 0.62 0.41
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl Pool_Metal
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 1.00 1.00 1.00
+Ns 722.50
+newmtl Rim
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd -o_10.06_11_stone_0104_c.jpg
+Ni 1.45
+Ks 0.09 0.09 0.09
+Ns 250.00
+newmtl Tiles
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.09 0.09 0.09
+Ns 490.00
+newmtl Tiles_001
+illum 4
+Kd 0.80 0.80 0.80
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.45
+Ks 0.09 0.09 0.09
+Ns 490.00
+newmtl iglu_Black
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd black_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl iglu_Button_Light
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd lightButton_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl iglu_Glass
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd glass_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 640.00
+newmtl iglu_Gray
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd gray_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 360.00
+newmtl iglu_Metal
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd metal_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00
+newmtl iglu_White
+illum 4
+Kd 0.00 0.00 0.00
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+map_Kd white_BaseColor.png
+Ni 1.45
+Ks 0.50 0.50 0.50
+Ns 250.00

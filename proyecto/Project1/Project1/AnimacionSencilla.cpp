@@ -506,6 +506,9 @@ int main()
 	Model Pez03((char*)"Models/Fishes/Pez03.obj");
 	Model Pez04((char*)"Models/Fishes/Pez04.obj");
 
+	Model iglu((char*)"Models/iglu/iglu.obj");
+	Model piscina((char*)"Models/iglu/Pool.obj");
+	Model pool_w((char*)"Models/Water/pool_water.obj");
 
 	//Modelo de animaci�n
 	ModelAnim animacionPersonaje("Animacion/Personaje1/Angry.dae");
@@ -759,7 +762,14 @@ int main()
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		body.Draw(lampShader);
 
+		//iglu
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		iglu.Draw(lampShader);
 
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		piscina.Draw(lampShader);
 
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//SV.Draw(lampShader);
@@ -1314,7 +1324,7 @@ int main()
 		DomoC.Draw(lightingShader_C);
 		glDisable(GL_BLEND);
 		glBindVertexArray(0);
-
+/*
 		lightingShader.Use();
 		glEnable(GL_BLEND);//Activa la funcionalidad para trabajar el canal alfa
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -1327,7 +1337,7 @@ int main()
 		PeceraC.Draw(lightingShader);
 		glDisable(GL_BLEND);
 		glBindVertexArray(0);
-
+*/
 		// ALGAES
 		Anim.Use();
 
@@ -1429,6 +1439,11 @@ int main()
 		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		CubeR.Draw(Anim);
+
+		model = glm::mat4(1);
+		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		pool_w.Draw(Anim);
 
 		//Pecera cilindro
 		model = glm::mat4(1);
@@ -1614,6 +1629,19 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 	if (keys[GLFW_KEY_V]) {
 		recorridoe6 = true;
 		recorridoe5 = false;
+	}
+
+	if (keys[GLFW_KEY_SPACE])
+	{
+		active = !active;
+		if (active)
+		{
+			Light1 = glm::vec3(1.0f, 0.5f, 1.0f);
+		}
+		else
+		{
+			Light1 = glm::vec3(0);//Cuado es solo un valor en los 3 vectores pueden dejar solo una componente
+		}
 	}
 
 	if (keys[GLFW_KEY_L])

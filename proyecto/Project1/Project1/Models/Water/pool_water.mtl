@@ -1,0 +1,83 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -o_10.06_11_stone_0104_c.jpg
+Ni 1.00
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd stainless-steel.png
+Ni 1.00
+newmtl lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd arroway.de_tiles-42_d100.jpg
+Ni 1.00
+newmtl lambert9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lightButton_BaseColor.png
+Ni 1.00
+newmtl lambert10SG
+illum 4
+Kd 0.73 0.59 0.38
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd arroway.de_tiles-42_d100.jpg
+Ni 1.00
+newmtl lambert13SG
+illum 4
+Kd 0.67 0.64 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl pasted__lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -o_10.06_11_stone_0104_c.jpg
+Ni 1.00
+newmtl pasted__lambert5SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -o_10.06_11_stone_0104_c.jpg
+Ni 1.00
+newmtl pasted__lambert6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd stainless-steel.png
+Ni 1.00
+newmtl pool_water_Sea_phong1SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd water.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

@@ -1,2 +1,123 @@
 ﻿  AnimacionSencilla.cpp
-C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\AnimacionSencilla.cpp : fatal error C1041: no puede abrir la base de datos de programa 'C:\Users\Kiki\Documents\UNAM\Semestre9\LabGraficas\git\Teoria\CarpetaCambios\ProyectoFinalGCIHC_2023-1-Eq4\Codigo_Diego\proyecto\Project1\Project1\Debug\vc143.idb'. Si varios CL.EXE escriben en el mismo archivo .PDB, use /FS.
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\modelAnim.h(104,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\modelAnim.h(519,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(49,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(50,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(89,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(90,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(283,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(289,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(292,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(294,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(298,28): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(301,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(307,27): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(316,28): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(319,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(325,27): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(328,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(330,24): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(334,29): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(337,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(343,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(346,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(352,28): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(356,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(358,24): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(362,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(544,24): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(584,21): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(585,21): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(586,21): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(588,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(589,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(590,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(592,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(593,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(594,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(596,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(597,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(598,22): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1349,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1564,14): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1570,14): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1578,15): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1584,15): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1592,19): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1598,19): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1671,11): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1672,11): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1676,18): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1677,18): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1679,10): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1680,10): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1752,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1761,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1766,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1775,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1782,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1791,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1796,17): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1805,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1811,21): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1829,18): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1840,21): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1855,18): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1897,20): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1898,20): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1909,20): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Project1\AnimacionSencilla.cpp(1910,20): warning C4305: '-=': truncation from 'double' to 'float'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(etc1_utils.obj)' or at 'C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_helper.obj)' or at 'C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Debug\soil2-debug.pdb'; linking object as if no debug info
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Debug\soil2-debug.pdb'; linking object as if no debug info
+  Project1.vcxproj -> C:\Users\armenta\Documents\P_Grafica\Enrique\ProyectoFinalGCIHC_2023-1-Eq4\proyecto\Project1\Debug\Project1.exe
