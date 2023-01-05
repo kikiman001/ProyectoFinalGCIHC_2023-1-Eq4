@@ -307,9 +307,9 @@ int main()
 	KeyFrame[2].rotDI4 = 0.04;
 	KeyFrame[2].rotHands = Pinzas;
 	//A number: 3
-	KeyFrame[3].posX = -2.5;
+	KeyFrame[3].posX = 0.0;
 	KeyFrame[3].posY = 0.0;
-	KeyFrame[3].posZ = 11.90;
+	KeyFrame[3].posZ = 0.0;
 	KeyFrame[3].rotDI1 = DownC;
 	KeyFrame[3].rotDI2 = DownC;
 	KeyFrame[3].rotDI3 = DownC;
@@ -407,11 +407,13 @@ int main()
 
 
 	Shader lightingShader("Shaders/lighting.vs", "Shaders/lighting.frag");
-	Shader lightingShader2("Shaders/lighting_E.vs", "Shaders/lighting_E.frag");
+	//Traslucidez
+	Shader lightingShader_C("Shaders/lighting_E.vs", "Shaders/lighting.frag");
+
 	Shader lampShader("Shaders/lamp2.vs", "Shaders/lamp2.frag");
 	Shader Anim("Shaders/anim.vs", "Shaders/anim.frag");
 	Shader Anim2("Shaders/anim2.vs", "Shaders/anim.frag");
-	Shader animShader("Shaders/animE2.vs", "Shaders/animE2.frag");
+	Shader animShader("Shaders/anim_E.vs", "Shaders/anim_E.frag");
 
 	//acuario
 	//Model Sea((char*)"Models/Sea/Sea.obj");
@@ -571,10 +573,10 @@ int main()
 
 		// Point light 1
 
-		glm::vec3 lightColor;
-		glm::vec3 lightColor2;
-		glm::vec3 lightColor3;
-		glm::vec3 lightColor4;
+		glm::vec3 lightColor{};
+		glm::vec3 lightColor2{};
+		glm::vec3 lightColor3{};
+		glm::vec3 lightColor4{};
 
 		lightColor.x = abs(sin(glfwGetTime() * Light1.x));
 		lightColor.y = abs(sin(glfwGetTime() * Light1.y));
@@ -1015,7 +1017,7 @@ int main()
 		//-----------------------------------------------------------------------------------------------------
 		//MODELOS ENRIQUE
 		//-----------------------------------------------------------------------------------------------------
-		/*lampShader.Use();
+		lampShader.Use();
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(0.0f + EX, 0.0f, 0.0f + EZ));
 		model = glm::scale(model, glm::vec3(0.3f, 8.0f, 0.3f));
@@ -1023,7 +1025,7 @@ int main()
 		//glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		Piso.Draw(lampShader);
-		glBindVertexArray(0);*/
+		glBindVertexArray(0);
 
 		lampShader.Use();
 		model = glm::mat4(1);
@@ -1278,7 +1280,7 @@ int main()
 		//cofre
 		lampShader.Use();
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f + EX, 0.0f, 2.934f + EZ));
+		model = glm::translate(model, glm::vec3(0.0f + EX, 0.0f, 4.934f + EZ));
 		model = glm::scale(model, glm::vec3(4.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1f(glGetUniformLocation(lampShader.Program, "transparencia"), 0.0);
@@ -1286,7 +1288,7 @@ int main()
 		glBindVertexArray(0);
 		lampShader.Use();
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(0.0f + EX, -0.012f, 2.934f + EZ));
+		model = glm::translate(model, glm::vec3(0.0f + EX, -0.012f, 4.934f + EZ));
 		model = glm::scale(model, glm::vec3(4.5f));
 		model = glm::rotate(model, glm::radians(rotTapa), glm::vec3(1.0f, 0.0f, 0.0));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -1320,29 +1322,52 @@ int main()
 
 
 		model = glm::mat4(1);
-		model = glm::translate(model, glm::vec3(PosIni.x , PosIni.y + 0.0f, PosIni.z - 3.119f ));
+		model = glm::translate(model, glm::vec3(PosIni.x+EX , PosIni.y + 0.0f, PosIni.z - 6.119f +EZ));
 		model = glm::scale(model, glm::vec3(0.02f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		animacionPersonaje.Draw(animShader);
 		glBindVertexArray(0);
 
 
-
-			//Traslucidez
-		lightingShader2.Use();
+		////	//Traslucidez
+		lightingShader_C.Use();
 		glEnable(GL_BLEND);
-		
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-		model = glm::translate(glm::mat4(1.0f), glm::vec3(EX, 0.0f, EZ));
+		model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f+EX, 0.0f, 0.0f+EZ));
 		model = glm::mat4(1);
-		model = glm::scale(model, glm::vec3(2.5f));
+		model = glm::scale(model, glm::vec3(1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lightingShader2.Program, "transparencia"), 0.0);
-		DomoC.Draw(lightingShader2);
+		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
+		DomoC.Draw(lightingShader_C);
 		glDisable(GL_BLEND);
 		glEnable(GL_DEPTH_TEST);
 		glBindVertexArray(0);
 
+	////	//Traslucidez
+
+	////	glEnable(GL_BLEND);
+	////	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	////	model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f));
+	////	model = glm::mat4(1);
+	////	model = glm::scale(model, glm::vec3(1.0f));
+	////	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+	////	glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
+	////	PeceraC.Draw(lightingShader_C);
+	////	glDisable(GL_BLEND);
+	////	glEnable(GL_DEPTH_TEST);
+	////	glBindVertexArray(0);
+
+	////	glEnable(GL_BLEND);
+	////	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	////	model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, 0.0f));
+	////	model = glm::mat4(1);
+	////	model = glm::scale(model, glm::vec3(1.0f));
+	////	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+	////	glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
+	////	DomoI.Draw(lightingShader_C);
+	////	glDisable(GL_BLEND);
+	////	glEnable(GL_DEPTH_TEST);
+	////	glBindVertexArray(0);
 
 
 		// ALGAES
@@ -1621,18 +1646,15 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 		}
 	}
 
-	if (keys[GLFW_KEY_SPACE])
-	{
-		active = !active;
-		if (active)
-		{
-			Light1 = glm::vec3(1.0f, 0.5f, 1.0f);
-		}
-		else
-		{
-			Light1 = glm::vec3(0);//Cuado es solo un valor en los 3 vectores pueden dejar solo una componente
-		}
+	if (keys[GLFW_KEY_C]) {
+		recorridoe5 = true;
+		recorridoe6 = false;
 	}
+	if (keys[GLFW_KEY_V]) {
+		recorridoe6 = true;
+		recorridoe5 = false;
+	}
+
 	if (keys[GLFW_KEY_L])
 	{
 		if (play == false && (FrameIndex > 1))
@@ -1649,25 +1671,6 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 		else
 		{
 			play = false;
-		}
-
-		if (keys[GLFW_KEY_I])
-		{
-			circuitoe = true;
-		}
-
-		if (keys[GLFW_KEY_O])
-		{
-			circuitoe = false;
-		}
-
-		if (keys[GLFW_KEY_C]) {
-			recorridoe5 = true;
-			recorridoe6 = false;
-		}
-		if (keys[GLFW_KEY_V]) {
-			recorridoe6 = true;
-			recorridoe5 = false;
 		}
 	}
 }
@@ -1933,7 +1936,7 @@ void animacion()
 					
 				}
 			}
-			if (recorrido4)
+			if (recorridoe4)
 			{
 				movYe -= 0.001f;
 				if (movYe < 0.0) {
