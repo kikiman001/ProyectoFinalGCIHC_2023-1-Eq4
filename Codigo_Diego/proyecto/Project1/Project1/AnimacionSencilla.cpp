@@ -408,7 +408,7 @@ int main()
 
 	Shader lightingShader("Shaders/lighting.vs", "Shaders/lighting.frag");
 	//Traslucidez
-	Shader lightingShader_C("Shaders/lighting_E.vs", "Shaders/lighting.frag");
+	Shader lightingShader_C("Shaders/lighting_E.vs", "Shaders/lighting_E.frag");
 
 	Shader lampShader("Shaders/lamp2.vs", "Shaders/lamp2.frag");
 	Shader Anim("Shaders/anim.vs", "Shaders/anim.frag");
@@ -1052,31 +1052,31 @@ int main()
 		glBindVertexArray(0);
 		
 		
-		//	//1
-		//lampShader.Use();
-		//	model = glm::mat4(1);
-		//	model = glm::translate(model, glm::vec3(-6.5f+EX, 0.0f, 0.3f+EZ));
-		//	model = glm::rotate(model, glm::radians(-88.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-		//	model = glm::scale(model, glm::vec3(3.0f));
-		//	
-		//	glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		//	Brain.Draw(lampShader);
-		//	glBindVertexArray(0);
+			//1
+		lampShader.Use();
+			model = glm::mat4(1);
+			model = glm::translate(model, glm::vec3(-11.5f+EX, 0.0f, 0.3f+EZ));
+			model = glm::rotate(model, glm::radians(-88.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(3.0f));
+			
+			glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+			Brain.Draw(lampShader);
+			glBindVertexArray(0);
 
-		//lampShader.Use();
-		//	model = glm::mat4(1);
-		//	model = glm::translate(model, glm::vec3(-9.1f+EX, 0.1f, 0.0f+EZ));
-		//	model = glm::rotate(model, glm::radians(10.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-		//	
-		//	glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-		//	CHoja.Draw(lampShader);
-		//glBindVertexArray(0);
+		lampShader.Use();
+			model = glm::mat4(1);
+			model = glm::translate(model, glm::vec3(-13.1f+EX, 0.2f, 0.0f+EZ));
+			model = glm::rotate(model, glm::radians(10.0f), glm::vec3(0.0f, 1.0f, 0.0f));
+			model = glm::scale(model, glm::vec3(3.0f));
+			glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+			CHoja.Draw(lampShader);
+		glBindVertexArray(0);
 
 		
 		////	2 fondo
 		lampShader.Use();
 			model = glm::mat4(1);
-			model = glm::translate(model, glm::vec3(-3.139f+EX, 0.0f, 8.57f+EZ));
+			model = glm::translate(model, glm::vec3(-3.139f+EX, 0.0f, 10.57f+EZ));
 			model = glm::rotate(model, glm::radians(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 			model = glm::scale(model, glm::vec3(3.0f));
 
@@ -1086,7 +1086,7 @@ int main()
 		lampShader.Use();
 
 			model = glm::mat4(1);
-			model = glm::translate(model, glm::vec3(-3.115f+EX, 0.0f, 10.0f+EZ));
+			model = glm::translate(model, glm::vec3(-3.115f+EX, 0.0f, 12.0f+EZ));
 			model = glm::rotate(model, glm::radians(10.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 			model = glm::scale(model, glm::vec3(3.0f));
 			glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
@@ -1145,25 +1145,23 @@ int main()
 			
 		
 
-		lampShader.Use();
+		lightingShader_C.Use();
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(6.763f + EX, 0.0f, -12.209 + EZ));
 		model = glm::rotate(model, glm::radians(4.832f), glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 1.0f);
-		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
-		Pared.Draw(lampShader);
+		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
+		Pared.Draw(lightingShader_C);
 		glBindVertexArray(0);
 
-		lampShader.Use();
+		lightingShader_C.Use();
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(13.5f + EX, 0.3f, 0.9f + EZ));
 		model = glm::scale(model, glm::vec3(1.5f, 1.2f, 1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 1.0f);
-		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
-		Roca.Draw(lampShader);
+		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
+		Roca.Draw(lightingShader_C);
 		glBindVertexArray(0);
 
 		//Puffer
@@ -1184,7 +1182,7 @@ int main()
 		model = glm::mat4(1);
 		model = glm::translate(tmp, glm::vec3(-0.256f + EX, 5.323f, -0.016f + EZ));
 
-		model = glm::scale(model, glm::vec3(1.5f));
+		model = glm::scale(model, glm::vec3(2.0f));
 		model = glm::translate(model, PosIni + glm::vec3(0, movYe / 2, 0));
 		glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 1.0);
 		glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
@@ -1196,7 +1194,7 @@ int main()
 		model = glm::mat4(1);
 		model = glm::translate(tmp, glm::vec3(0.0f + EX, 5.323f, -1.094f + EZ));
 		model = glm::rotate(model, glm::radians(11.922f), glm::vec3(0.0f, 1.0f, 0.0));
-		model = glm::scale(model, glm::vec3(1.5f));
+		model = glm::scale(model, glm::vec3(2.0f));
 		model = glm::translate(model, PosIni + glm::vec3(0, movYe * -1, 0));
 		glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 1.0);
 		glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
@@ -1209,7 +1207,7 @@ int main()
 		model = glm::translate(tmp, glm::vec3(-1.0f + EX, 5.323f, 0.0f + EZ));
 		model = glm::rotate(model, glm::radians(181.046f), glm::vec3(0.0f, 1.0f, 0.0));
 		model = glm::translate(model, PosIni + glm::vec3(0, movYe, 0));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		
 		glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 1.0);
 		glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -1221,7 +1219,7 @@ int main()
 		model = glm::translate(tmp, glm::vec3(0.0f + EX, 5.323f, 1.094f + EZ));
 		model = glm::rotate(model, glm::radians(-85.209f), glm::vec3(0.0f, 1.0f, 0.0));
 		model = glm::translate(model, PosIni + glm::vec3(0, movYe * -1, 0));
-		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
+		
 		glUniform1f(glGetUniformLocation(lampShader.Program, "activTransparencia"), 1.0);
 		glUniform4f(glGetUniformLocation(lampShader.Program, "colorAlpha"), 1.0, 1.0, 1.0, 1.0);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -1289,23 +1287,46 @@ int main()
 		animacionPersonaje.Draw(animShader);
 		glBindVertexArray(0);
 
-
-		////	//Traslucidez
+		//Traslucidez
 		lightingShader_C.Use();
-		glEnable(GL_BLEND);
+		glEnable(GL_BLEND);//Activa la funcionalidad para trabajar el canal alfa
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-		model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f+EX, 0.0f, 0.0f+EZ));
+		////domo geodesico
 		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
 		model = glm::scale(model, glm::vec3(1.5f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "transparencia"), 0.0);
-		DomoC.Draw(lightingShader_C);
+		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "activeTransparencia"), 0.0f);
+		//glUniform4f(glGetUniformLocation(lightingShader_C.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
+		DomoI.Draw(lightingShader_C);
 		glDisable(GL_BLEND);
-		glEnable(GL_DEPTH_TEST);
 		glBindVertexArray(0);
 
+		lightingShader_C.Use();
+		glEnable(GL_BLEND);//Activa la funcionalidad para trabajar el canal alfa
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
+		model = glm::scale(model, glm::vec3(1.5f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader_C.Program, "activeTransparencia"), 0.0f);
+		//glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
+		DomoC.Draw(lightingShader_C);
+		glDisable(GL_BLEND);
+		glBindVertexArray(0);
 
-
+		lightingShader.Use();
+		glEnable(GL_BLEND);//Activa la funcionalidad para trabajar el canal alfa
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
+		model = glm::scale(model, glm::vec3(1.5f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1f(glGetUniformLocation(lightingShader.Program, "activeTransparencia"), 1.0f);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
+		PeceraC.Draw(lightingShader);
+		glDisable(GL_BLEND);
+		glBindVertexArray(0);
 
 		// ALGAES
 		Anim.Use();
@@ -1329,6 +1350,8 @@ int main()
 		glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 1.0f);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		CubeF.Draw(Anim);
+
+
 
 		//Algas con animacion
 
@@ -1422,6 +1445,7 @@ int main()
 		glUniform4f(glGetUniformLocation(Anim.Program, "colorAlpha"), 1.0f, 1.0f, 1.0f, 0.55f);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		DomoI.Draw(Anim);
+
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(EX, 0.0f, EZ));
 		model = glm::scale(model, glm::vec3(1.5f));
