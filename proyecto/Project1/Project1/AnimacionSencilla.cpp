@@ -70,6 +70,10 @@ float rad = 12.0;
 
 float movKitXt = 0.0;
 float movKitZt = 0.0;
+
+float movKitXP = 0.0;
+float movKitZP = 0.0;
+
 float rotKitt = 180.0;
 float radt = 60.0;
 
@@ -81,6 +85,7 @@ bool recorrido5 = true;
 bool recorrido6 = false;
 bool recorrido7 = false;
 bool recorrido8 = false;
+bool recorrido9 = false;
 
 
 //cangrejo keyframes
@@ -783,6 +788,7 @@ int main()
 		piscina.Draw(lampShader);
 
 		model = glm::mat4(1);
+		model = glm::translate(model, glm::vec3(movKitXP, movKitZP, 0));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguCom.Draw(lampShader);
 
@@ -791,10 +797,12 @@ int main()
 		pinguBod.Draw(lampShader);
 
 		model = glm::mat4(1);
+		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(0.0f, 0.0f, glfwGetTime()));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguIzq.Draw(lampShader);
 
 		model = glm::mat4(1);
+		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(0.0f, 0.0f, glfwGetTime()));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguDer.Draw(lampShader);
 
@@ -803,6 +811,7 @@ int main()
 		pinguBod2.Draw(lampShader);
 
 		model = glm::mat4(1);
+		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(glfwGetTime(), 0.0f, 0.0f));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguIzq2.Draw(lampShader);
 
@@ -1703,6 +1712,10 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 			play = false;
 		}
 	}
+	if (keys[GLFW_KEY_Q])
+	{
+		recorrido9 = true;
+	}
 }
 
 void MouseCallback(GLFWwindow* window, double xPos, double yPos)
@@ -1902,6 +1915,20 @@ void animacion()
 				recorrido5 = true;
 			}
 		}
+		if (recorrido9)
+		{
+			movKitXP += 0.001;
+
+			//rotKitt += 180.0;
+			if (movKitXP <= 5.14) {
+				movKitXP += 0.01f;
+			}
+			else {
+				recorrido9 = false;
+			}
+			movKitZP = 2 * sin(movKitXP);
+		}
+		
 		//up down peces
 		if (recorridoe3)
 		{
