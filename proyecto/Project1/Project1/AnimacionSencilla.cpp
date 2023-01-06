@@ -507,7 +507,7 @@ int main()
 	Model Pez04((char*)"Models/Fishes/Pez04.obj");
 
 	Model iglu((char*)"Models/iglu/iglu.obj");
-	Model piscina((char*)"Models/iglu/Pool.obj");
+	Model piscina((char*)"Models/iglu/piscina.obj");
 	Model pool_w((char*)"Models/Water/pool_water.obj");
 
 	//Modelo de animaci�n
