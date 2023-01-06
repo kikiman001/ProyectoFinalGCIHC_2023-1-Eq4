@@ -507,8 +507,19 @@ int main()
 	Model Pez04((char*)"Models/Fishes/Pez04.obj");
 
 	Model iglu((char*)"Models/iglu/iglu.obj");
-	Model piscina((char*)"Models/iglu/piscina.obj");
+	Model piscina((char*)"Models/Piscina/Pool.obj");
 	Model pool_w((char*)"Models/Water/pool_water.obj");
+
+	Model pinguCom((char*)"Models/PinguinosCompletos/Pingu1.obj");
+	Model pinguBod((char*)"Models/Pinguino/BodyPinguino.obj");
+	Model pinguIzq((char*)"Models/Pinguino/Ala_izq.obj");
+	Model pinguDer((char*)"Models/Pinguino/Ala_der.obj");
+	Model pinguBod2((char*)"Models/Pinguino1/body.obj");
+	Model pinguIzq2((char*)"Models/Pinguino1/ala.obj");
+	Model cubeta((char*)"Models/Cubeta/Cubeta.obj");
+
+
+
 
 	//Modelo de animaci�n
 	ModelAnim animacionPersonaje("Animacion/Personaje1/Angry.dae");
@@ -771,6 +782,34 @@ int main()
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		piscina.Draw(lampShader);
 
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguCom.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguBod.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguIzq.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguDer.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguBod2.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		pinguIzq2.Draw(lampShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+		cubeta.Draw(lampShader);
+		
 		//glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		//SV.Draw(lampShader);
 		//Sea.Draw(lampShader);
@@ -1377,6 +1416,11 @@ int main()
 		Algae22.Draw(Anim);
 
 		model = glm::mat4(1);
+		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		pool_w.Draw(Anim);
+
+		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(3.0f, 0.0f, 3.0f));
 		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -1440,10 +1484,7 @@ int main()
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		CubeR.Draw(Anim);
 
-		model = glm::mat4(1);
-		glUniform1f(glGetUniformLocation(Anim.Program, "time"), tiempo);
-		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-		pool_w.Draw(Anim);
+		
 
 		//Pecera cilindro
 		model = glm::mat4(1);
