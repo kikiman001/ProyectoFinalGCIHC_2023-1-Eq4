@@ -797,12 +797,12 @@ int main()
 		pinguBod.Draw(lampShader);
 
 		model = glm::mat4(1);
-		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		model = glm::rotate(model, glm::radians(rot/100), glm::vec3(0.0f, 0.0f, glfwGetTime()));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguIzq.Draw(lampShader);
 
 		model = glm::mat4(1);
-		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(0.0f, 0.0f, glfwGetTime()));
+		model = glm::rotate(model, glm::radians(rot/100), glm::vec3(0.0f, 0.0f, glfwGetTime()));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguDer.Draw(lampShader);
 
@@ -811,7 +811,7 @@ int main()
 		pinguBod2.Draw(lampShader);
 
 		model = glm::mat4(1);
-		model = glm::rotate(model, glm::radians(rot/900), glm::vec3(glfwGetTime(), 0.0f, 0.0f));
+		model = glm::rotate(model, glm::radians(rot/100), glm::vec3(glfwGetTime(), 0.0f, 0.0f));
 		glUniformMatrix4fv(glGetUniformLocation(lampShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
 		pinguIzq2.Draw(lampShader);
 
